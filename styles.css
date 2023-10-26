@@ -1,14 +1,14 @@
-/* CSS para o layout geral */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1f182b; /* Roxo escuro */
-    color: #ffffff; /* Branco */
+    background-color: #1f182b;
+    color: #ffffff; 
 }
 
 header {
-    background-color: #15111a; /* Roxo mais claro */
+    background-color: #15111a; 
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -19,7 +19,7 @@ h1 {
 }
 
 button {
-    background-color: #221942; /* Roxo intermediário */
+    background-color: #221942; 
     color: #ffffff;
     border: none;
     cursor: pointer;
@@ -28,7 +28,7 @@ button {
 
 #categories {
     display: none;
-    background-color: #3d3147; /* Roxo mais claro */
+    background-color: #3d3147;
     padding: 10px;
 }
 
@@ -48,7 +48,7 @@ main {
     padding: 20px;
 }
 
-/* CSS para as capas dos filmes */
+
 .movie {
     margin: 20px;
     text-align: center;
@@ -59,8 +59,8 @@ main {
 
 .movie img {
     max-width: 200px;
-    border: 2px solid #361557; /* Moldura roxa */
-    border-radius: 10px; /* Borda arredondada */
+    border: 2px solid #361557;
+    border-radius: 10px;
     transition: border-color 0.2s;
 }
 
@@ -69,19 +69,19 @@ main {
     font-size: 1.2rem;
 }
 
-/* Efeito de escurecimento da moldura ao passar o mouse */
+
 .movie:hover img {
-    border-color: #3d3147; /* Tom de roxo mais escuro */
+    border-color: #3d3147; 
 }
 
-/* Efeito de escala ao passar o mouse */
+
 .movie:hover {
-    transform: scale(1.05); /* Aumenta em 5% */
+    transform: scale(1.05); 
 }
 
-/* Estilize os links conforme necessário */
+
 a {
-    color: #d194fa; /* Laranja claro para links */
+    color: #d194fa; 
     text-decoration: none;
 }
 
