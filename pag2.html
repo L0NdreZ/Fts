@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabilly</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mabilly</h1>
+        <button id="toggleCategories">Categorias</button>
+        <input type="text" id="searchInput" placeholder="Pesquisar...">
+    </header>
+    
+    <div id="categories" class="hidden">
+        <ul>
+            <li><a href="categoria/acao.html">Ação</a></li>
+            <li><a href="categoria/comedia.html">Comédia</a></li>
+            
+        </ul>
+    </div>
+    
+    <main>
+        <div class="movie">
+            <img src="banner\forrest gump.jpg" alt="Forrest Gump">
+            <h2><a href="Pag filmes\filme1.html">Forrest Gump</a></h2>
+        </div>
+        
+        <div class="pagination">
+            <button id  ="previousPage">Anterior</button>
+            <span class="page-number">2</span>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">10</a>
+            <button id="nextPage">Próxima</button>
+        </div>
+    </main>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
