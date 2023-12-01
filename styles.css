@@ -52,7 +52,7 @@ main {
 .movie {
     margin: 20px;
     text-align: center;
-    position: relative;
+    
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
